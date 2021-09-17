@@ -1,13 +1,12 @@
+/*--------------------UNIVERSALS--------------------*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {    
-    background-color: #d9dcd6;
-    margin: 0 auto;
-}
+/*-----------------------HEADER-----------------------*/
 
 .header {
     padding: 20px;
@@ -15,18 +14,13 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
 .header h1 .seo {
     color: #d9dcd6;
 }
-/*
-Changed all div's to nav.
-*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,24 +28,29 @@ Changed all div's to nav.
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
 .header nav ul {
     list-style-type: none;
 }
-
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*-------------------------BODY------------------------*/
+
+body {    
+    background-color: #d9dcd6;
+    margin: 0 auto;
+}
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
 p {
     font-size: 16px;
 }
+
+/*----------------------CENTER PIECE------------------*/
 
 .hero {
     height: 800px;
@@ -62,15 +61,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/*----------------------LEFT/CENTER------------------*/
 
 .content {
     width: 75%;
@@ -78,6 +69,34 @@ p {
     margin-left: 20px;
     
 }
+
+/*combined multiple classes into one sub-class.*/
+
+.sub-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+.sub-content img {
+    max-height: 200px;
+}
+.sub-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*--------------------RIGHTSIDE COLUMN-------------------*/
 
 .benefits {
     margin-right: 20px;
@@ -87,55 +106,33 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;    
+    background-color: #2a607c;    
 }
-/*
-combined multiple classes into one class here.
-*/
+
+/*combined multiple classes into one class.*/
 .sub-benifit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .sub-benifit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-
 .sub-benifit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*
--combined multiple classes into one class here.
-*/
-.sub-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.sub-content img {
-    max-height: 200px;
-}
+/*-----------------------FOOTER-------------------*/
 
-.sub-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*-combined multiple classes into one class here.*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
 .footer h2 {
     font-size: 20px;
 }
