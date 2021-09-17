@@ -82,15 +82,15 @@ p {
 }
 
 /*combined multiple classes into one class.*/
-.sub-benifit {
+.sub-benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-.sub-benifit h3 {
+.sub-benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-.sub-benifit img {
+.sub-benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
