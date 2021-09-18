@@ -80,15 +80,15 @@ h4 {
 #seo {
     color: #d9dcd6;
 }
-#float-left {
+/* ------------------------CLASS'S--------------------------*/
+.float-left {
     float: left;
     margin-right: 25px;
 }
-#float-right {
+.float-right {
     float: right;
     margin-left: 25px;
 }
-/* ------------------------CLASS'S--------------------------*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
